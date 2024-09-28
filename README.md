@@ -1,2 +1,2 @@
 # **FROG**: **FR**amework of **O**pen **G**raphRAG
-![FROG](https://github.com/user-attachments/assets/6b3aef8a-5bd2-4d3a-928a-05d2db09d2dc)
+![frog-logo](https://github.com/user-attachments/assets/0119354b-7fe4-4232-9f26-8ff1122b4edd)

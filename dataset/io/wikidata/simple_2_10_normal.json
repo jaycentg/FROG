@@ -1,0 +1,42 @@
+[
+    {
+        "question":"I want to know the assistant",
+        "query":"select ?x { ?x wdt:P2002 \"bridgetown_iu\" . }"
+    },
+    {
+        "question":"What is the publication date of?x that is equal to January 1, 1959?",
+        "query":"select ?x { ?x wdt:P577 \"1959-01-01T00:00:00Z\"^^xsd:dateTime . }"
+    },
+    {
+        "question":"What is the member of Interpol?",
+        "query":"select ?x { ?x wdt:P463 wd:Q8475 . }"
+    },
+    {
+        "question":"What is the GND ID with the value '16337130-1'?",
+        "query":"select ?x { ?x wdt:P227 \"16337130-1\" . }"
+    },
+    {
+        "question":"What date is the publication date for which the value is January 1, 1949?",
+        "query":"select ?x { ?x wdt:P577 \"1949-01-01T00:00:00Z\"^^xsd:dateTime . }"
+    },
+    {
+        "question":"What is the count of students equal to 12077?",
+        "query":"select ?x { ?x wdt:P2196 \"12077\" . }"
+    },
+    {
+        "question":"Please\nHow can I help you",
+        "query":"select ?x { ?x wdt:P243 \"42611642\" . }"
+    },
+    {
+        "question":"What institutions of higher education are classified as four-year, medium, highly residential according to the Carnegie Classification of Institutions of Higher Education?",
+        "query":"select ?x { ?x wdt:P2643 wd:Q23622828 . }"
+    },
+    {
+        "question":"What is a member of the Organisation for the Prohibition of Chemical Weapons?",
+        "query":"select ?x { ?x wdt:P463 wd:Q842490 . }"
+    },
+    {
+        "question":"What is the entity that has the Le Figaro tag ID \"Su\u00e8de\"?",
+        "query":"select ?x { ?x wdt:P6621 \"Su\u00e8de\" . }"
+    }
+]

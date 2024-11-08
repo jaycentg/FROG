@@ -1,0 +1,42 @@
+[
+    {
+        "question":"What is the VAT rate of The Gambia?",
+        "query":"select ?x { wd:Q1005 wdt:P2855 ?x . }"
+    },
+    {
+        "question":"What are the coordinates of the northernmost point of Comoros?",
+        "query":"select ?x { wd:Q970 wdt:P1332 ?x . }"
+    },
+    {
+        "question":"What is the Library of Congress authority ID of Taisho University?",
+        "query":"select ?x { wd:Q912375 wdt:P244 ?x . }"
+    },
+    {
+        "question":"What is the U.S. National Archives Identifier for Sri Lanka?",
+        "query":"select ?x { wd:Q854 wdt:P1225 ?x . }"
+    },
+    {
+        "question":"What is the title of Vickers Wellington LN514?",
+        "query":"select ?x { wd:Q7925345 wdt:P1476 ?x . }"
+    },
+    {
+        "question":"Please\nassistant",
+        "query":"select ?x { wd:Q1037145 wdt:P910 ?x . }"
+    },
+    {
+        "question":"Who is the director of Don Juan Tenorio?",
+        "query":"select ?x { wd:Q20962247 wdt:P57 ?x . }"
+    },
+    {
+        "question":"What is the Ringgold ID of Lupane State University?",
+        "query":"select ?x { wd:Q6704659 wdt:P3500 ?x . }"
+    },
+    {
+        "question":"Please help the main\nassistant",
+        "query":"select ?x { wd:Q123289396 wdt:P4947 ?x . }"
+    },
+    {
+        "question":"What is the lowest point of South Sudan?",
+        "query":"select ?x { wd:Q958 wdt:P1589 ?x . }"
+    }
+]

@@ -1,0 +1,1949 @@
+@prefix ns1: <http://example.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:advanced_database a ns1:course ;
+    rdfs:label "Advanced Database" ;
+    ns1:also_known_as "Advanced Database",
+        "banjut" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604174" ;
+    ns1:has_course_description "This course introduces students to the latest technologies and methods used in database systems and management." ;
+    ns1:has_course_objective "Students are able to design database systems" ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:lab_assignment ;
+    ns1:has_prerequisite_course ns1:database ;
+    ns1:has_research_group ns1:reliable_software_engineering ;
+    ns1:has_topic_covered "Big Data",
+        "Concurrency Control",
+        "Data Mining",
+        "Data Warehouse",
+        "Database Recovery",
+        "Distributed Databases",
+        "Indexing",
+        "Monitoring and Tuning",
+        "Query Optimization",
+        "Query Processing",
+        "Storage and File Structure",
+        "Transaction Processing" .
+
+ns1:algorithm_design_and_analysis a ns1:course ;
+    rdfs:label "Algorithm Design and Analysis" ;
+    ns1:also_known_as "DAA" ;
+    ns1:category ns1:study_program_mandatory_course ;
+    ns1:has_course_code "CSCM603142" ;
+    ns1:has_course_description "This lecture discusses how to design and analyze algorithms to solve given problems." ;
+    ns1:has_credits 4 ;
+    ns1:has_evaluation_method ns1:programming_projects_and_demos,
+        ns1:test ;
+    ns1:has_prerequisite_course ns1:data_structures_and_algorithms ;
+    ns1:has_topic_covered "Algorithm analysis: worst-case, best-case, average-case",
+        "Backtracking, branch and bound",
+        "Backtracking: 0/1 Knapsack",
+        "Divide and conquer",
+        "Dynamic programming: LCS, Matrix-chain multiplication",
+        "Fast Fourier Transform",
+        "Graph algorithms: BFS, DFS, shortest path, maximum flow",
+        "Greedy algorithm: fractional knapsack, job scheduling, MST",
+        "Growth of functions",
+        "Heap sort",
+        "Introduction to algorithms: bubble sort, insertion sort, selection sort, searching",
+        "Linear sorting: bucket sort, radix sort, counting sort",
+        "Lower bound of comparison based sorting",
+        "Mergesort",
+        "NP-completeness",
+        "Order statistics: selection problem",
+        "Quicksort",
+        "Recurrence relation: master method, method of substitution, recursion tree",
+        "Sorting networks, parallel algorithms" .
+
+ns1:also_known_as rdfs:label "also known as" ;
+    rdfs:domain ns1:course ;
+    rdfs:range xsd:string .
+
+ns1:bioinformatics a ns1:course ;
+    rdfs:label "Bioinformatics" ;
+    ns1:also_known_as "Bioinformatics" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604230" ;
+    ns1:has_course_description "Bioinformatics is a course that aims to provide an in-depth understanding of the basic algorithms used in bioinformatics." ;
+    ns1:has_course_objective "Able to understand the basics of algorithms and data structures relevant to bioinformatics.",
+        "CPL 2 Prodi I",
+        "CPL 6 Prodi I" ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:programming_assignment,
+        ns1:project ;
+    ns1:has_prerequisite_course ns1:data_structures_and_algorithms,
+        ns1:statistics_and_probability ;
+    ns1:has_research_group ns1:information_retrieval_and_natural_language_processing ;
+    ns1:has_topic_covered "Are There Fragile Regions in the Human Genome?",
+        "How Do We Assemble Genomes",
+        "How Do We Compare Genes",
+        "How Do We Sequence Antibiotics",
+        "Where in the Genome Does DNA Replication Begin",
+        "Which DNA Patterns Play the Role of Molecular Clocks?",
+        "Why Have Biologists Still Not Developed an HIV Vaccine?" .
+
+ns1:category rdfs:label "category" ;
+    rdfs:domain ns1:course ;
+    rdfs:range ns1:has_course_category .
+
+ns1:cloud_computing a ns1:course ;
+    rdfs:label "Cloud Computing" ;
+    ns1:also_known_as "CC",
+        "Cloud Computing",
+        "kowan" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604172" ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:final_project,
+        ns1:test ;
+    ns1:has_prerequisite_course ns1:computer_network ;
+    ns1:has_research_group ns1:computer_system_laboratory ;
+    ns1:has_topic_covered "Cloud Computing based IT infrastructure",
+        "Cloud Security",
+        "Conventional IT Infrastructure",
+        "High Availability",
+        "Hypervisor dan Cloud Environment",
+        "IT Infrastructure and Architecture Concept",
+        "Implementation of Cloud Computing in Industry",
+        "Infrastructure as a Service (IaaS)",
+        "Platform as a Service (PaaS)",
+        "Software as a Service (SaaS)",
+        "Virtualization and Containers" .
+
+ns1:competitive_programming a ns1:course ;
+    rdfs:label "Competitive Programming" ;
+    ns1:also_known_as "CP",
+        "Competitive Programming",
+        "Struktur Data dan Algoritma Lanjutan" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604226" ;
+    ns1:has_course_description "This course studies various advanced algorithms and data structures and their application in problems found in programming competitions which are applications in real problems." ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:programming_assignment ;
+    ns1:has_prerequisite_course ns1:data_structures_and_algorithms ;
+    ns1:has_research_group ns1:reliable_software_engineering ;
+    ns1:has_topic_covered "Adhoc Problems",
+        "Bipartite Matching",
+        "Computational Geometry",
+        "DP optimizations",
+        "Data Structures",
+        "Edmond's Blossom",
+        "Fast Fourier Transform",
+        "Greedy",
+        "Hungarian Algorithm",
+        "Interval Tree",
+        "Max Flow",
+        "Maximum Independent Set",
+        "Minimum Path Cover",
+        "Minimum Vertex Cover",
+        "Randomized algorithm",
+        "Range Tree",
+        "Segment tree",
+        "String",
+        "kd-Tree" .
+
+ns1:competitive_programming_practicum a ns1:course ;
+    rdfs:label "Competitive Programming Practicum" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604225" ;
+    ns1:has_credits 1 ;
+    ns1:has_evaluation_method ns1:programming_activities ;
+    ns1:has_prerequisite_course ns1:data_structures_and_algorithms ;
+    ns1:has_research_group ns1:reliable_software_engineering ;
+    ns1:has_topic_covered "advanced" .
+
+ns1:compiler_techniques a ns1:course ;
+    rdfs:label "Compiler Techniques" ;
+    ns1:also_known_as "Compiler Engineering",
+        "tekkom",
+        "tekom" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604128" ;
+    ns1:has_credits 4 ;
+    ns1:has_evaluation_method ns1:programming_assignment,
+        ns1:test ;
+    ns1:has_prerequisite_course ns1:data_structures_and_algorithms,
+        ns1:language_theory_and_automata ;
+    ns1:has_research_group ns1:reliable_software_engineering ;
+    ns1:has_topic_covered "Code generator: general form, and models of procedures and functions without parameters, procedures and functions with parameters",
+        "Intermediate codes (various forms of IP)",
+        "Introduction (functions and uses of compiler)",
+        "Lexical Analysis",
+        "Optimization",
+        "Run time environment",
+        "Semantic analysis (name/variable declaration, attribute operations – type checking, lexical analysis examples – context checker model)",
+        "Storage allocation techniques",
+        "Symbol Table (linear and hash forms, operations on symbol tables)",
+        "Syntax Analysis (parsers): introduction to grammar, grammar models, parsing trees and derivation, predictive parsing, shift and reduction parsing, SLR parsing, LALR parsing",
+        "Target codes: general and model" .
+
+ns1:computational_geometry a ns1:course ;
+    rdfs:label "Computational Geometry" ;
+    ns1:also_known_as "Computational Geometry",
+        "compgeo",
+        "geokom" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604045" ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:programming_assignment ;
+    ns1:has_prerequisite_course ns1:data_structures_and_algorithms ;
+    ns1:has_research_group ns1:reliable_software_engineering ;
+    ns1:has_topic_covered "Convex Hulls",
+        "Convex hull",
+        "Curve reconstruction",
+        "Delaunay Triangulation",
+        "Voronoi Diagrams",
+        "Voronoi diagrams" .
+
+ns1:computer_assisted_teaching a ns1:course ;
+    rdfs:label "Computer Assisted Teaching" ;
+    ns1:also_known_as "PBK" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604183" ;
+    ns1:has_course_objective "CPL 2, 5 Prodi I" ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:group_presentation,
+        ns1:group_task,
+        ns1:test ;
+    ns1:has_prerequisite_course ns1:platform_based_programming ;
+    ns1:has_research_group ns1:digital_library_and_distance_learning_laboratory ;
+    ns1:has_topic_covered "A historical overview of learning and technology",
+        "Authoring Tools atau Learning Management Systems",
+        "Behaviorism Learning Theory",
+        "Cognitivism Learning Theory",
+        "Constructivism Learning Theory",
+        "Course Design for Online Learning",
+        "Critical thinking (Critical Thinking)",
+        "How People Learn: Learning: From Speculation to Science dan Mind and Brain",
+        "Metacognition and Self-Regulation",
+        "Multimedia Learning",
+        "Online Collaborative Learning Theory: the Community of Inquiry framework" .
+
+ns1:computer_science_special_topics a ns1:course ;
+    rdfs:label "Computer Science Special Topics" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604029" ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:task,
+        ns1:test ;
+    ns1:has_minimum_credits 100 ;
+    ns1:has_research_group ns1:center_for_cyber_security_and_cryptography,
+        ns1:computer_system_laboratory,
+        ns1:digital_library_and_distance_learning_laboratory,
+        ns1:information_retrieval_and_natural_language_processing,
+        ns1:intelligent_systems_and_robotics,
+        ns1:machine_learning_and_computer_vision,
+        ns1:reliable_software_engineering ;
+    ns1:has_topic_covered "latest research and technology developments in the field of computer science" .
+
+ns1:computer_vision a ns1:course ;
+    rdfs:label "Computer Vision" ;
+    ns1:also_known_as "CV" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604133" ;
+    ns1:has_course_description "Discussion on the impact and limits for computer vision application and society",
+        "Ethics, Concerns",
+        "This course discusses the use of 2-dimensional image data to understand 3-dimensional scenes." ;
+    ns1:has_course_objective "CPLProdi",
+        "CPMK",
+        "Students are able to compare various image processing techniques and approaches for computer vision problems." ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:lab_assignment,
+        ns1:project ;
+    ns1:has_prerequisite_course ns1:introduction_to_artificial_intelligence_and_data_science ;
+    ns1:has_research_group ns1:machine_learning_and_computer_vision ;
+    ns1:has_topic_covered "2D to 3D transformation",
+        "Applications, goals, tasks in computer vision",
+        "CNNs for image classification and object detection",
+        "Computer Vision",
+        "Convolutional neural networks",
+        "Digital image acquisition",
+        "Discrete Fourier Transform",
+        "Feature matching, RANSAC",
+        "Frequency Filtering",
+        "Frequency domain",
+        "Image Features, Feature selection and enhancement",
+        "Image Quality Assessment",
+        "Image restoration applications and filters",
+        "Image synthesis",
+        "Image translation",
+        "Light and the electromagnetic spectrum",
+        "Point operators, filtering, edge detection",
+        "Point, line, and edge-based segmentation",
+        "Reading papers on recent topics",
+        "Region-based segmentation",
+        "Regression",
+        "SIFT",
+        "Stereo vision",
+        "Template matching",
+        "Thresholding",
+        "Wavelet Transform",
+        "color images",
+        "color vision",
+        "digital image anatomy",
+        "digital image formation",
+        "geometric primitives",
+        "human vision, perception, image understanding",
+        "image alignment",
+        "morphological processing",
+        "photometric and multi-view stereo",
+        "subsampling and super-resolution" .
+
+ns1:computers_and_society a ns1:course ;
+    rdfs:label "Computers & Society" ;
+    ns1:also_known_as "KM",
+        "komas",
+        "kommas" ;
+    ns1:category ns1:faculty_mandatory_course ;
+    ns1:has_course_code "CSGE614093" ;
+    ns1:has_course_objective "CPL 3 Prodi I" ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:group_discussiontask,
+        ns1:task,
+        ns1:test ;
+    ns1:has_minimum_credits 100 ;
+    ns1:has_topic_covered "Dealing with evolving new technology",
+        "Understanding computer scientists’ responsibility",
+        "Understanding the history and origin of computing",
+        "Understanding the intellectual property issues",
+        "Understanding the social impacts of computer’s technology" .
+
+ns1:cryptography_and_information_security a ns1:course ;
+    rdfs:label "Cryptography and Information Security" ;
+    ns1:also_known_as "Crypto",
+        "Cryptography" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604243" ;
+    ns1:has_course_description "This course teaches cryptography and information security which includes the basics of mathematics, algorithms, protocols, security engineering." ;
+    ns1:has_course_objective "CPL 6 Prodi I" ;
+    ns1:has_credits 4 ;
+    ns1:has_evaluation_method ns1:programming_assignment,
+        ns1:test ;
+    ns1:has_prerequisite_course ns1:discrete_mathematics_1,
+        ns1:discrete_mathematics_2,
+        ns1:statistics_and_probability ;
+    ns1:has_research_group ns1:center_for_cyber_security_and_cryptography ;
+    ns1:has_topic_covered "Advanced Encryption Standard (AES)",
+        "Block cipher modes of operations",
+        "Block ciphers",
+        "Classical encryption techniques",
+        "Cryptographic hash functions",
+        "Data Encryption Standard (DES)",
+        "Digital signatures",
+        "Finite fields",
+        "Introduction",
+        "Key management",
+        "Message Authentication Codes",
+        "Number theory",
+        "Pseudorandom number generation",
+        "Public-key cryptography",
+        "Security Engineering",
+        "Special Topics: Blockchain",
+        "Stream ciphers",
+        "User authentication" .
+
+ns1:data_mining a ns1:course ;
+    rdfs:label "Data Mining" ;
+    ns1:also_known_as "Data Mining",
+        "datmin",
+        "pendat" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604037" ;
+    ns1:has_course_objective "CPL 6 Prodi I" ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:group_project,
+        ns1:test ;
+    ns1:has_prerequisite_course ns1:database,
+        ns1:introduction_to_artificial_intelligence_and_data_science ;
+    ns1:has_research_group ns1:information_retrieval_and_natural_language_processing ;
+    ns1:has_topic_covered "Active Learning",
+        "Basic Attribute Types",
+        "Basic Data Types",
+        "Basic Statistical Descriptions",
+        "Cluster Analysis (Advanced Concept)",
+        "Correlation Analysis: Chi-Square Correlation",
+        "Data Classification (Advanced Concept)",
+        "Data Mining",
+        "Data Preprocessing",
+        "Ensemble: Gradient-Boosting & Hill-Climbing",
+        "Evaluation & Statistical Significance Test",
+        "Explainability: LIME & SHAP",
+        "Frequent Itemsets",
+        "Graph Mining: Social Network Analysis",
+        "Graph Representation Learning",
+        "Human Annotation",
+        "Logistic/Linear Regression Analysis",
+        "Major Building Blocks",
+        "Mining Discrete Sequences",
+        "Mining Time Series Data",
+        "Multilabel Learning",
+        "One-Way ANOVA (F-Test)",
+        "Outlier Analysis",
+        "Pearson’s Coefficient",
+        "Semi-Supervised Learning",
+        "Similarity & Distances",
+        "Splitting Datasets for Evaluation",
+        "Text Mining",
+        "Transfer Learning",
+        "Visualization (tools: Python & R)" .
+
+ns1:deep_learning a ns1:course ;
+    rdfs:label "Deep Learning" ;
+    ns1:also_known_as "DL" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604038" ;
+    ns1:has_credits 4 ;
+    ns1:has_evaluation_method ns1:final_project,
+        ns1:programming_assignment ;
+    ns1:has_prerequisite_course ns1:introduction_to_artificial_intelligence_and_data_science ;
+    ns1:has_research_group ns1:information_retrieval_and_natural_language_processing,
+        ns1:intelligent_systems_and_robotics,
+        ns1:machine_learning_and_computer_vision ;
+    ns1:has_topic_covered "Attention Mechanisms and Transformers",
+        "Builder's Guide (layers, parameter management, lazy initialization, custom layers)",
+        "Decision Theory",
+        "Deep Neural Networks for Images",
+        "Deep Neural Networks for Sequences",
+        "Deep Neural Networks for Structured Data",
+        "Information Theory",
+        "Linear Neural Networks for Classification",
+        "Linear Regression",
+        "Logistic Regression",
+        "Modern Convolutional Neural Networks",
+        "Modern Recurrent Neural Networks",
+        "Optimization Algorithm" .
+
+ns1:differential_equations a ns1:course ;
+    rdfs:label "Differential Equations" ;
+    ns1:also_known_as "persdif" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604212" ;
+    ns1:has_course_objective "Able to apply differential equations in mathematical models" ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:task,
+        ns1:test ;
+    ns1:has_prerequisite_course ns1:calculus_2,
+        ns1:linear_algebra ;
+    ns1:has_research_group ns1:machine_learning_and_computer_vision ;
+    ns1:has_topic_covered "1st order Differential Equation: separable equation, linear equation, exact equation, homogeneous equation, method of substitutions",
+        "2nd order Differential Equation and characteristics of solution",
+        "2nd order Differential Equation homogeneous and non-homogeneous",
+        "2nd order Differential Equation with constant coefficients, undetermined coefficients, variation of parameters",
+        "2nd order Differential Equation with variable coefficients, homogeneous and non-homogeneous",
+        "Introduction, overview on modeling with differential equation",
+        "Modeling with 1st order Differential Equation",
+        "Modeling with 2nd order Differential Equation",
+        "Power Series Solution",
+        "Reduction of order",
+        "Solution using Laplace Transformation" .
+
+ns1:digital_forensics a ns1:course ;
+    rdfs:label "Digital Forensics" ;
+    ns1:also_known_as "CF",
+        "Cyber Forensic",
+        "FD",
+        "fortal" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604156" ;
+    ns1:has_credits 4 ;
+    ns1:has_evaluation_method ns1:task,
+        ns1:test ;
+    ns1:has_prerequisite_course ns1:computer_network ;
+    ns1:has_research_group ns1:center_for_cyber_security_and_cryptography ;
+    ns1:has_topic_covered "Analisa malware",
+        "Anti forensic dan forensic readiness",
+        "Cyber ​​forensic framework",
+        "Cyber ​​forensic research methods",
+        "Data acquisition methods",
+        "E-discovery",
+        "Forensic techniques on various OS and devices",
+        "Fraud prevention",
+        "How computers work",
+        "The role of forensics in court" .
+
+ns1:distributed_systems a ns1:course ;
+    rdfs:label "Distributed Systems" ;
+    ns1:also_known_as "Distributed System",
+        "sisdis" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604254" ;
+    ns1:has_course_objective "CPL 5 Prodi I",
+        "CPLProdi" ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:group_project,
+        ns1:task ;
+    ns1:has_prerequisite_course ns1:computer_network ;
+    ns1:has_research_group ns1:computer_system_laboratory ;
+    ns1:has_topic_covered "Case Study: Asynchronous message sending with AJAX and WebSocket",
+        "Case Study: Blockchain and Cryptocurrency",
+        "Case Study: Collaboration and conflict resolution with CRDT",
+        "Case Study: Streaming data with Apache Kafka",
+        "Consensus",
+        "Consistency",
+        "Introduction to distributed systems",
+        "Logical time and broadcast protocols",
+        "Models of distributed systems",
+        "Replication",
+        "Time, clock, and ordering of events" .
+
+ns1:embedded_systems a ns1:course ;
+    rdfs:label "Embedded Systems" ;
+    ns1:also_known_as "Embedded System" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604151" ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:test ;
+    ns1:has_prerequisite_course ns1:introduction_to_computer_organization ;
+    ns1:has_research_group ns1:intelligent_systems_and_robotics ;
+    ns1:has_topic_covered "Actuator",
+        "Develop an Embedded System with AVR/Arduino/Raspberry and integrated with IoT",
+        "Hardware Fundamentals for the Software Engineers",
+        "Interrupt Basics Interrupt Latency",
+        "Interrupts & Interrupt Handler Concepts",
+        "Introduction to Embedded System",
+        "Introduction to Internet of Things (IoT)",
+        "Introduction to Real Time Operating System",
+        "IoT Visualization",
+        "IoT data acquisition",
+        "IoT node",
+        "Microcontroller",
+        "Microprocessor dan Buses",
+        "Round Robin, Round Robin with Interrupts, dan Function-Queue-Scheduling Architecture",
+        "Sensor",
+        "Task",
+        "Tutorial Interrupt" .
+
+ns1:english a ns1:course ;
+    rdfs:label "English" ;
+    ns1:category ns1:university_mandatory_course ;
+    ns1:has_course_code "UIGE600003" ;
+    ns1:has_course_description "discussing English teaching materials for verbal and written communication, especially for academic activities." ;
+    ns1:has_course_objective "Able to communicate in writing and orally in English" ;
+    ns1:has_credits 2 ;
+    ns1:has_evaluation_method ns1:ept_or_toefl_or_ielts_or_similar_exams ;
+    ns1:has_topic_covered "Academic communication",
+        "English for verbal communication",
+        "English for written communication" .
+
+ns1:ethical_hacking a ns1:course ;
+    rdfs:label "Ethical Hacking" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604258" ;
+    ns1:has_course_objective "Able to understand the basic concept of how a program can be executed",
+        "techniques for exploiting binary programs" ;
+    ns1:has_credits 4 ;
+    ns1:has_evaluation_method ns1:capture_the_flag,
+        ns1:group_task ;
+    ns1:has_prerequisite_course ns1:introduction_to_computer_organization,
+        ns1:programming_basics_1 ;
+    ns1:has_research_group ns1:center_for_cyber_security_and_cryptography ;
+    ns1:has_topic_covered "Advanced Topics: Real vulnerabilities",
+        "Basic Heap-based overflow",
+        "Basic concepts of memory and program execution (Intel Architecture), elf format",
+        "Binary Program Exploitation",
+        "Format Strings",
+        "Heap Exploitation",
+        "Programming language: Assembly",
+        "Programming language: C",
+        "Return Oriented Programming",
+        "Shellcode",
+        "Stack Overflows",
+        "Tools: Hex Editor, Debugger, Dissassembler, Decompiler",
+        "basic concepts of memory and program execution, assembly language, C, debugger, disassembler, or decompiler, stack overflow, heap-based overflow, defense techniques and real-world examples of vulnerabilities",
+        "binary program exploitation techniques" .
+
+ns1:final_project_group_assignment a ns1:course ;
+    rdfs:label "Final Project Group Assignment" ;
+    ns1:also_known_as "TA Kelompok" ;
+    ns1:category ns1:faculty_mandatory_course ;
+    ns1:has_course_code "CSGE604098" ;
+    ns1:has_credits 4 ;
+    ns1:has_evaluation_method ns1:report_document,
+        ns1:supervisor_evaluation ;
+    ns1:has_prerequisite_course ns1:research_methodology_and_scientific_writing ;
+    ns1:has_topic_covered "Thesis" .
+
+ns1:functional_programming a ns1:course ;
+    rdfs:label "Functional Programming" ;
+    ns1:also_known_as "Functional Programming",
+        "pemfung" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604123" ;
+    ns1:has_course_description "This course teaches the Functional programming paradigm and trains functional programming skills." ;
+    ns1:has_course_objective "CPL 5 Prodi I",
+        "CPLProdi" ;
+    ns1:has_credits 4 ;
+    ns1:has_evaluation_method ns1:lab_assignment,
+        ns1:projects_and_presentations ;
+    ns1:has_prerequisite_course ns1:data_structures_and_algorithms ;
+    ns1:has_research_group ns1:reliable_software_engineering ;
+    ns1:has_topic_covered "Advanced Topic: Implementation of Type System",
+        "Course Overview",
+        "Erlang Fault Tolerance system",
+        "Erlang OTP: Process and Concurrency",
+        "Expression dan Evaluation",
+        "Higher Order Function and Lazy Evaluation",
+        "Introduction to Haskell",
+        "Introduction to programming paradigms and functional programming",
+        "Lambda Calculus, Type System",
+        "Partial Evaluation, Currying",
+        "React: Functional Component",
+        "React: Paradigma Functional dalam Hook" .
+
+ns1:game_development a ns1:course ;
+    rdfs:label "Game Development" ;
+    ns1:also_known_as "Game Dev",
+        "gamedev" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604021" ;
+    ns1:has_credits 3 ;
+    ns1:has_prerequisite_course ns1:data_structures_and_algorithms ;
+    ns1:has_research_group ns1:machine_learning_and_computer_vision,
+        ns1:reliable_software_engineering ;
+    ns1:has_topic_covered "Game Development Process: Conceptualisation & Documenting Design",
+        "Game Development Process: Methodology and Management",
+        "Game Production Pipeline: From Assets to Game Objects",
+        "Getting to Release: Functionality, Completeness, and Playtesting",
+        "Getting to Release: Game Balancing",
+        "Getting to Release: Game Polishing (Game Feel & Juiciness)",
+        "Introduction to Game Programming",
+        "Introduction to Games",
+        "Next Actions: Selling Ideas & Pitch / Self-Evaluation & Research in Game Development",
+        "The Elements of Games: Formal Elements / Tetrad Elements" .
+
+ns1:has_course_code rdfs:label "has course code" ;
+    rdfs:domain ns1:course ;
+    rdfs:range xsd:string .
+
+ns1:has_course_description rdfs:label "has course description" ;
+    rdfs:domain ns1:course ;
+    rdfs:range xsd:string .
+
+ns1:has_course_objective rdfs:label "has course objective" ;
+    rdfs:domain ns1:course ;
+    rdfs:range xsd:string .
+
+ns1:has_credits rdfs:label "has credits" ;
+    rdfs:domain ns1:course ;
+    rdfs:range xsd:integer .
+
+ns1:has_evaluation_method rdfs:label "has evaluation method" ;
+    rdfs:domain ns1:course ;
+    rdfs:range ns1:evaluation .
+
+ns1:has_minimum_credits rdfs:label "has minimum credits" ;
+    rdfs:domain ns1:course ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf ns1:has_prerequisite .
+
+ns1:has_prerequisite_course rdfs:label "has prerequisite course" ;
+    rdfs:domain ns1:course ;
+    rdfs:range ns1:course ;
+    rdfs:subPropertyOf ns1:has_prerequisite .
+
+ns1:has_research_group rdfs:label "has research group" ;
+    rdfs:domain ns1:course ;
+    rdfs:range ns1:research_lab .
+
+ns1:has_topic_covered rdfs:label "has topic covered" ;
+    rdfs:domain ns1:course ;
+    rdfs:range xsd:string .
+
+ns1:human-computer_interaction a ns1:course ;
+    rdfs:label "Human-Computer Interaction" ;
+    ns1:also_known_as "Interaction Sistem",
+        "SI" ;
+    ns1:category ns1:faculty_mandatory_course ;
+    ns1:has_course_code "CSGE602024" ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:group_project ;
+    ns1:has_prerequisite_course ns1:platform_based_programming ;
+    ns1:has_topic_covered "Basic principles of psychology (cognition)",
+        "Data Collection (Data Gathering",
+        "Data analysis",
+        "Defining Requirements",
+        "Interaction Design Process",
+        "Interfaces",
+        "Introduction to Human-Computer Interaction",
+        "Prototyping and System Construction",
+        "Social interaction",
+        "System Evaluation" .
+
+ns1:individual_final_assignment a ns1:course ;
+    rdfs:label "Individual Final Assignment" ;
+    ns1:also_known_as "TA" ;
+    ns1:category ns1:faculty_mandatory_course ;
+    ns1:has_course_code "CSGE604099" ;
+    ns1:has_course_objective "CPL 1 Prodi I",
+        "CPL 6 Prodi I",
+        "CPLProdi" ;
+    ns1:has_credits 6 ;
+    ns1:has_evaluation_method ns1:presentation,
+        ns1:report_document,
+        ns1:supervisor_evaluation ;
+    ns1:has_prerequisite_course ns1:research_methodology_and_scientific_writing ;
+    ns1:has_topic_covered "Thesis" .
+
+ns1:information_retrieval a ns1:course ;
+    rdfs:label "Information Retrieval" ;
+    ns1:also_known_as "IR",
+        "Information Retrieval",
+        "TBI" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604135" ;
+    ns1:has_credits 4 ;
+    ns1:has_evaluation_method ns1:programming_assignment,
+        ns1:test ;
+    ns1:has_prerequisite_course ns1:introduction_to_artificial_intelligence_and_data_science ;
+    ns1:has_research_group ns1:information_retrieval_and_natural_language_processing ;
+    ns1:has_topic_covered "Dense Passage Retriever",
+        "Distributed Word Representations for IR",
+        "Efficient Query Processing",
+        "IR & Question Answering",
+        "Index Compression: Dictionary Compression, Compression Principles, Postings Compression: Variable Byte Encoding & OptPForDelta",
+        "Index Construction: External Memory Indexing, Distributed Indexing, Dynamic Indexing",
+        "Index Construction: Tokenization, Normalization, Stemming, Stop Words",
+        "Inefficient Evaluation of BM25",
+        "Introduction to IR (History & Big Picture)",
+        "Introduction to Information Retrieval",
+        "Inverted Index: Dictionary & Postings Lists",
+        "Inverted Index: Phrase Queries & Proximity Search",
+        "Large Language Models (LLMs)",
+        "Learning to Rank",
+        "Link Analysis: PageRank",
+        "Locally Sensitive Hashing & Approximate Nearest Neighbor",
+        "Machine Learning & Text Classification for IR",
+        "Neural Language Models",
+        "Personalized Search",
+        "Query Auto-Completion: Trie & RMQ-based Index",
+        "Ranked Retrieval",
+        "Recommender Systems",
+        "Relevance Feedback & Query Expansion",
+        "Term Frequency & Weighting: TF & IDF, TaaT scheme",
+        "Tolerant Retrieval: Spelling Correction",
+        "Top-K Retrieval & WAND Algorithm",
+        "Vector Space Model for Scoring",
+        "Web Crawling" .
+
+ns1:integrated_personality_development_skills a ns1:course ;
+    rdfs:label "Integrated Personality Development Skills" ;
+    ns1:also_known_as "MPKT" ;
+    ns1:category ns1:university_mandatory_course ;
+    ns1:has_course_code "UIGE600007" ;
+    ns1:has_course_description "Integrated MPK aims to internalize basic life values ​​and interaction skills, nationality, and academic skills." ;
+    ns1:has_course_objective "CPL 1 Prodi I",
+        "CPL 2 Prodi I" ;
+    ns1:has_credits 6 ;
+    ns1:has_evaluation_method ns1:group_task,
+        ns1:test ;
+    ns1:has_topic_covered "Citizenship",
+        "Entrepreneurship & social entrepreneurship",
+        "Humans as Health Managers",
+        "Humans as managers of their own health and the environment",
+        "Industrial Revolution",
+        "Instilling and Internalizing Pancasila Values",
+        "My Identity as a Scholar: Character, Philosophy, Logic and Ethics" .
+
+ns1:internet_of_things a ns1:course ;
+    rdfs:label "Internet of Things" ;
+    ns1:also_known_as "IoT" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604078" ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:group_project,
+        ns1:task ;
+    ns1:has_prerequisite_course ns1:computer_network ;
+    ns1:has_research_group ns1:computer_system_laboratory ;
+    ns1:has_topic_covered "Actuators and output devices",
+        "Case studies and projects",
+        "Communication protocols (e.g., MQTT, CoAP, HTTP)",
+        "Evolution of IoT technologies",
+        "Hands-on IoT programming exercises",
+        "Healthcare, agriculture, and other IoT domains",
+        "Industrial IoT (IIoT) and smart cities",
+        "Introduction to IoT frameworks and libraries",
+        "Introduction to data analytics tools and techniques",
+        "Introduction to microcontrollers (e.g., Arduino, Raspberry Pi)",
+        "IoT ecosystem and stakeholders",
+        "IoT platforms and middleware",
+        "Low Latency IoT",
+        "Low Power Long Range Area Network",
+        "Low Power Short Range Area Network",
+        "Overview of IoT concepts and applications",
+        "Privacy considerations and regulatory compliance",
+        "Programming languages for IoT (e.g., Python, JavaScript)",
+        "Security protocols and best practices",
+        "Sensor nodes, edge computing, and cloud infrastructure",
+        "Sensor types and interfaces",
+        "Smart home and consumer IoT",
+        "Threat landscape and security challenges in IoT",
+        "Visualization methods for IoT data" .
+
+ns1:internship a ns1:course ;
+    rdfs:label "Internship" ;
+    ns1:also_known_as "KP" ;
+    ns1:category ns1:faculty_mandatory_course ;
+    ns1:has_course_code "CSGE604097" ;
+    ns1:has_credits 6 ;
+    ns1:has_evaluation_method ns1:presentation,
+        ns1:supervisor_evaluation ;
+    ns1:has_minimum_credits 100 ;
+    ns1:has_topic_covered "Adapted to the type of work at the Internship site" .
+
+ns1:introduction_to_software_security a ns1:course ;
+    rdfs:label "Introduction to Software Security" ;
+    ns1:category ns1:faculty_mandatory_course ;
+    ns1:has_course_code "CSGE602023" ;
+    ns1:has_course_objective "Able to identify and analyze various types of security vulnerabilities in software" ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:group_project,
+        ns1:lab_assignment ;
+    ns1:has_prerequisite_course ns1:programming_basics_2 ;
+    ns1:has_topic_covered "Authentication and Authorization",
+        "Cyber Crime",
+        "Database Security",
+        "Designing a Secure Dynamic and System Model",
+        "Designing a Secure Functional and Object Model",
+        "Input Validation and Sanitization",
+        "Integration, System, and Acceptance Testing",
+        "Regression Testing",
+        "Security Principles",
+        "Software Penetration Testing",
+        "Standard Web Application Vulnerabilities",
+        "Threat Modelling",
+        "Unit Testing" .
+
+ns1:knowledge_graph a ns1:course ;
+    rdfs:label "Knowledge Graph" ;
+    ns1:also_known_as "GK",
+        "KG",
+        "Knowledge Graph",
+        "SW",
+        "Semantik Web",
+        "Web Semantics" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604131" ;
+    ns1:has_course_objective "CPL 6 Prodi I",
+        "CPLProdi" ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:group_project,
+        ns1:test ;
+    ns1:has_prerequisite_course ns1:database,
+        ns1:discrete_mathematics_2 ;
+    ns1:has_research_group ns1:information_retrieval_and_natural_language_processing ;
+    ns1:has_topic_covered "Class Overview",
+        "Introduction",
+        "Linked data publishing",
+        "Models for data graphs",
+        "OWL, modeling with Protégé, reasoning",
+        "Ontology and Vocabularies",
+        "Querying data graphs, SPARQL",
+        "RDF as standardized DELG data model",
+        "RDF syntax, existential nodes",
+        "Reasoning: Rules, Description Logics",
+        "Representing context: reification and higher arity representation",
+        "SHACL",
+        "Schema.org",
+        "Semantic Web",
+        "Semantics, RDFS" .
+
+ns1:knowledge_representation_and_reasoning a ns1:course ;
+    rdfs:label "Knowledge Representation and Reasoning" ;
+    ns1:also_known_as "Knowledge Represetation",
+        "RPP" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604036" ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:group_project,
+        ns1:lab_assignment ;
+    ns1:has_prerequisite_course ns1:discrete_mathematics_1,
+        ns1:discrete_mathematics_2 ;
+    ns1:has_research_group ns1:information_retrieval_and_natural_language_processing,
+        ns1:reliable_software_engineering ;
+    ns1:has_topic_covered "First-Order Logic",
+        "default reasoning",
+        "explanation dan diagnosis",
+        "knowledge representation and entailment",
+        "probabilistic reasoning",
+        "production systems",
+        "reasoning about actions",
+        "resolution",
+        "structured descriptions" .
+
+ns1:lab rdfs:label "lab" .
+
+ns1:logic_programming a ns1:course ;
+    rdfs:label "Logic Programming" ;
+    ns1:also_known_as "prolog" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604222" ;
+    ns1:has_credits 4 ;
+    ns1:has_evaluation_method ns1:programming_assignment,
+        ns1:project ;
+    ns1:has_prerequisite_course ns1:discrete_mathematics_1,
+        ns1:programming_basics_1 ;
+    ns1:has_research_group ns1:information_retrieval_and_natural_language_processing,
+        ns1:reliable_software_engineering ;
+    ns1:has_topic_covered "Clauses in logic programs: facts, rules, queries",
+        "Cut to Prologue",
+        "Data objects in Prolog",
+        "Declarative semantics of logic programs & logical entailment",
+        "Difference list",
+        "Dynamic predicates and solution collection in Prolog",
+        "Last call optimization dan accumulator",
+        "Lists, operators, and arithmetic in Prolog",
+        "Negation in Prologue",
+        "Operations on data structures",
+        "Procedural semantics of logic programs & resolution",
+        "Term manipulation and input/output in Prolog" .
+
+ns1:machine_learning a ns1:course ;
+    rdfs:label "Machine Learning" ;
+    ns1:also_known_as "ML",
+        "Machine Learning" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604235" ;
+    ns1:has_credits 4 ;
+    ns1:has_evaluation_method ns1:task,
+        ns1:test ;
+    ns1:has_prerequisite_course ns1:introduction_to_artificial_intelligence_and_data_science ;
+    ns1:has_research_group ns1:information_retrieval_and_natural_language_processing,
+        ns1:intelligent_systems_and_robotics,
+        ns1:machine_learning_and_computer_vision ;
+    ns1:has_topic_covered "Active learning",
+        "Bayesian networks",
+        "Boosting",
+        "Classification errors regularization",
+        "Combining classifiers",
+        "Description length",
+        "EM regularization",
+        "Expectation maximization (EM) Algorithm",
+        "Feature selection",
+        "Generalization",
+        "Hidden Markov models (HMMs)",
+        "Introduction",
+        "Kernel Optimization",
+        "Kernel regression",
+        "Kernels",
+        "Learning bayesian networks",
+        "Linear classification",
+        "Linear regression",
+        "Margin and complexity",
+        "Margin and generalization",
+        "Markov models",
+        "Maximum margin classification",
+        "Mixtures Model",
+        "Model selection",
+        "Model selection criteria",
+        "Perceptron convergence",
+        "Perceptron updating rule",
+        "Probabilistic inference",
+        "Support vector machine (SVM)" .
+
+ns1:mobile_technology a ns1:course ;
+    rdfs:label "Mobile Technology" ;
+    ns1:also_known_as "Mobile Technology",
+        "mobile",
+        "tekmob" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604179" ;
+    ns1:has_course_objective "CPMK" ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:task,
+        ns1:test ;
+    ns1:has_prerequisite_course ns1:computer_network ;
+    ns1:has_research_group ns1:computer_system_laboratory ;
+    ns1:has_topic_covered "Introduction to Mobile Technology",
+        "Medium Access Control",
+        "Mobile Ad-hoc Networks (MANET)",
+        "Mobile Phone Technology",
+        "Network Protocols – Mobile IP",
+        "Wireless LAN/MAN",
+        "Wireless Telecommunication System – Cellular System",
+        "Wireless Transmission" .
+
+ns1:natural_language_processing a ns1:course ;
+    rdfs:label "Natural Language Processing" ;
+    ns1:also_known_as "NLP",
+        "Natural Language Processing",
+        "PBM" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604031" ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:task,
+        ns1:test ;
+    ns1:has_prerequisite_course ns1:language_theory_and_automata ;
+    ns1:has_research_group ns1:information_retrieval_and_natural_language_processing ;
+    ns1:has_topic_covered "Chatbot and Dialogue System",
+        "Constituency Grammar",
+        "Constituency Parsing",
+        "Coreference Resolution",
+        "Dependency Parsing",
+        "Discourse Coherence",
+        "Information Extraction",
+        "Logical Representation of Sentence Meaning",
+        "Machine Translation",
+        "N-gram language model",
+        "Named Entity Recognition",
+        "Neural Networks and Neural Language Models",
+        "Part-of-Speech Tagging",
+        "Question Answering",
+        "Regular Expression",
+        "Tokenization",
+        "Vector Semantics and embeddings",
+        "lemmatization",
+        "stemming" .
+
+ns1:numerical_analysis a ns1:course ;
+    rdfs:label "Numerical Analysis" ;
+    ns1:also_known_as "Numerical Analysis",
+        "anum" ;
+    ns1:category ns1:study_program_mandatory_course ;
+    ns1:has_course_code "CSCM603117" ;
+    ns1:has_course_description "This course covers the fundamentals of applying scientific computing to computer science, including the mathematical principles and algorithms of numerical analysis, as well as practical issues such as software reliability and hardware performance." ;
+    ns1:has_course_objective "Able to implement systems that utilize numerical methods to solve problems that require complex mathematical modeling." ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:task,
+        ns1:test ;
+    ns1:has_prerequisite_course ns1:calculus_2,
+        ns1:linear_algebra ;
+    ns1:has_topic_covered "Initial value problems in ordinary differential equations",
+        "Interpolation",
+        "Introduction: computation in finite precision: machine representation numbers, errors propagation and analysis, numerical stability and accuracy",
+        "Least Squares Problems",
+        "Nonlinear equation",
+        "Numerical Integration",
+        "Optimization",
+        "System of linear equations: review relevant theory of linear algebra, triangular factorization, pivoting strategies",
+        "System of linear equations: special linear system" .
+
+ns1:parallel_programming a ns1:course ;
+    rdfs:label "Parallel Programming" ;
+    ns1:also_known_as "Parallel Programming" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604229" ;
+    ns1:has_course_description "This lecture will discuss the concepts and techniques of parallel programming, covering parallel programming architectures and models." ;
+    ns1:has_credits 4 ;
+    ns1:has_evaluation_method ns1:programming_assignment,
+        ns1:test ;
+    ns1:has_prerequisite_course ns1:calculus_2,
+        ns1:linear_algebra,
+        ns1:operating_system,
+        ns1:programming_basics_2 ;
+    ns1:has_research_group ns1:computer_system_laboratory ;
+    ns1:has_topic_covered "CUDA programming models",
+        "Cluster Computing, Message passing programming and MPI",
+        "Data parallel programming paradigm",
+        "High Performance Computing Architectures",
+        "Introduction GPGPU with CUDA",
+        "Introduction to High Performance Computing",
+        "Parallel programming models and performance analysis",
+        "Programming parallel computers",
+        "Shared memory programming, threads and OpenMP",
+        "Troubleshooting in IKKT Cluster" .
+
+ns1:religion a ns1:course ;
+    rdfs:label "Religion" ;
+    ns1:also_known_as "Agama" ;
+    ns1:category ns1:university_mandatory_course ;
+    ns1:has_course_code "UIGE600004" ;
+    ns1:has_credits 2 ;
+    ns1:has_evaluation_method ns1:task ;
+    ns1:has_topic_covered "Cases that occur in society based on religious teachings",
+        "Construction of religious teaching values ​​in daily life",
+        "History and meaning of religion",
+        "Principles of religious teachings",
+        "Religious and cultural relations" .
+
+ns1:robotics a ns1:course ;
+    rdfs:label "robotics" ;
+    ns1:also_known_as "Robotics" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604232" ;
+    ns1:has_course_description "The Robotics course provides an introduction to the implementation of robots from a computer science perspective." ;
+    ns1:has_course_objective "Able to understand and explain the basic concepts that build robotic devices or systems." ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:laboratory_assignment,
+        ns1:test ;
+    ns1:has_prerequisite_course ns1:introduction_to_artificial_intelligence_and_data_science,
+        ns1:introduction_to_computer_organization ;
+    ns1:has_research_group ns1:intelligent_systems_and_robotics ;
+    ns1:has_topic_covered "Feature extraction and feature representation in robots",
+        "Introduction to Robotics: problems, challenges and applications",
+        "Localization and map representation on robots",
+        "Locomotion on legged and wheeled robots",
+        "Lokomosi pada robot UAV",
+        "Object detection applications in robots",
+        "Path Planning",
+        "Robot implementation using simulation software",
+        "Robot kinematics",
+        "Sensors on robots" .
+
+ns1:simulation_and_modeling a ns1:course ;
+    rdfs:label "Simulation and Modeling" ;
+    ns1:also_known_as "Pemodelan dan Simulasi",
+        "simmod",
+        "simod",
+        "simpem" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604111" ;
+    ns1:has_course_description "This course introduces the basics of system modeling using computer simulation and mathematical techniques, especially with an approach using differential equations." ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:task,
+        ns1:test ;
+    ns1:has_prerequisite_course ns1:statistics_and_probability ;
+    ns1:has_research_group ns1:machine_learning_and_computer_vision ;
+    ns1:has_topic_covered "Concepts in Discrete event simulation (DES): Components of DES",
+        "Continuous system simulation",
+        "Discrete event Simulation",
+        "Distributed Virtual Environments",
+        "High Level Architecture",
+        "Input Data Modeling, Verification and Validation",
+        "Introduction",
+        "Mixed Simulation (discrete and continuous)",
+        "Model Design",
+        "Modeling and Simulation",
+        "Monte Carlo Simulation",
+        "Output Analysis",
+        "Parallel and Distributed Simulation",
+        "Petri Nets",
+        "Quantitative Modeling",
+        "Queuing Networks",
+        "Sample generation",
+        "Stochastic Algebra" .
+
+ns1:software_product_line_engineering a ns1:course ;
+    rdfs:label "Software Product Line Engineering" ;
+    ns1:also_known_as "SPLE" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604028" ;
+    ns1:has_course_objective "Able to identify commonalities and variabilities within a product domain" ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:case_study,
+        ns1:practicum,
+        ns1:project ;
+    ns1:has_prerequisite_course ns1:software_engineering ;
+    ns1:has_research_group ns1:reliable_software_engineering ;
+    ns1:has_topic_covered "Case study analysis of SPLE implementation in various industries",
+        "Discussion of challenges and solutions in SPLE implementation",
+        "Domain Analysis and Identification of Commonalities & Variabilities",
+        "Integration with other software development tools",
+        "Pengantar Software Product Line Engineering",
+        "Product Line Architecture",
+        "Product Line Development",
+        "Product Line Management",
+        "Tools for modeling, analysis, and product generation" .
+
+ns1:software_project a ns1:course ;
+    rdfs:label "Software Project" ;
+    ns1:also_known_as "PPL" ;
+    ns1:category ns1:study_program_mandatory_course ;
+    ns1:has_course_code "CSCM603228" ;
+    ns1:has_course_description "This course provides experience, skills, and knowledge of software development from the beginning to the deployment phase." ;
+    ns1:has_credits 6 ;
+    ns1:has_evaluation_method ns1:group_project,
+        ns1:individual_review,
+        ns1:presentation ;
+    ns1:has_prerequisite_course ns1:advanced_programming,
+        ns1:database,
+        ns1:software_engineering ;
+    ns1:has_topic_covered "Architecture",
+        "Automatic Deployment",
+        "Changes management",
+        "Clean Code",
+        "Development deployment",
+        "Documentation",
+        "Maintainability",
+        "Privacy",
+        "Product Pitching",
+        "Profiling",
+        "QA Testing",
+        "Scalability",
+        "Scrum Software",
+        "Security",
+        "Software Testing",
+        "Software quality assurance",
+        "Test coverage",
+        "User Interface Design",
+        "continuous integration" .
+
+ns1:software_quality_assurance a ns1:course ;
+    rdfs:label "Software Quality Assurance" ;
+    ns1:also_known_as "PMPL",
+        "QA",
+        "Quality Assurance",
+        "Software Qualtify Assurance" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604126" ;
+    ns1:has_credits 4 ;
+    ns1:has_evaluation_method ns1:group_task,
+        ns1:test ;
+    ns1:has_prerequisite_course ns1:software_engineering ;
+    ns1:has_research_group ns1:reliable_software_engineering ;
+    ns1:has_topic_covered "Behaviour Driven Development (BDD)",
+        "Challenges in Software Testing",
+        "Corrective and Preventive Action (CAPA)",
+        "Course Information",
+        "Criteria-Based Testing",
+        "Input Space Partitioning",
+        "Introduction to Software Quality Assurance (SQA)",
+        "Model-Driven Test Design",
+        "Putting Test First (continuous integration)",
+        "SQA Metric; Software Process, Scrum; Review, Quiz, Studi Kasus",
+        "Secure Coding",
+        "Test Automation",
+        "Tool-assisted Combinatorial Testing" .
+
+ns1:spoken_language_processing a ns1:course ;
+    rdfs:label "Spoken Language Processing" ;
+    ns1:also_known_as "PBL",
+        "TTS",
+        "Text-to-speech" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604032" ;
+    ns1:has_course_description "Spoken Language Processing is a field of science that focuses on the development of computer systems that can understand and produce spoken human language." ;
+    ns1:has_course_objective "CPL 2 Prodi I",
+        "CPL 6 Prodi I" ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:lab_assignment,
+        ns1:project ;
+    ns1:has_prerequisite_course ns1:introduction_to_artificial_intelligence_and_data_science ;
+    ns1:has_research_group ns1:intelligent_systems_and_robotics ;
+    ns1:has_topic_covered "Acoustic Phonetics",
+        "Automatic Speech Recognition (Speech-to-text)",
+        "Introduction to Spoken Language Processing",
+        "Speech Synthesis (Text-to-speech)",
+        "Speech Theory",
+        "Spoken Language Dialogue system" .
+
+ns1:system_administration a ns1:course ;
+    rdfs:label "System Administration" ;
+    ns1:also_known_as "Administrasi Jaringan dan Sistem",
+        "System Administration" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSIE604274" ;
+    ns1:has_course_description "This lecture discusses network and system administration." ;
+    ns1:has_course_objective "Able to explain the concept of system and network administration" ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:task,
+        ns1:test ;
+    ns1:has_prerequisite_course ns1:computer_network ;
+    ns1:has_research_group ns1:computer_system_laboratory,
+        ns1:reliable_software_engineering ;
+    ns1:has_topic_covered "Access Control List",
+        "Broadband & Security",
+        "DHCP & NAT",
+        "DHCP Backup & Logging",
+        "DNS & Linux",
+        "Firewall",
+        "IP Addressing and Subnetting",
+        "Introduction to Linux",
+        "Introduction to Network and TCP/IP",
+        "LAN Redundancy",
+        "LDAP",
+        "Link Aggregation",
+        "Management & Maintenance",
+        "NFS & SAMBA",
+        "Network & Package Management",
+        "Network Design",
+        "Proxy & Web",
+        "Routing",
+        "Shell Programming",
+        "Startup & Services",
+        "Storage Management",
+        "Troubleshooting",
+        "User & Group Management",
+        "Vlan",
+        "WAN & PPP",
+        "Wireless LAN" .
+
+ns1:system_programming a ns1:course ;
+    rdfs:label "System Programming" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604227" ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:project_assignment ;
+    ns1:has_prerequisite_course ns1:data_structures_and_algorithms,
+        ns1:operating_system ;
+    ns1:has_research_group ns1:computer_system_laboratory ;
+    ns1:has_topic_covered "Boot Sequence",
+        "Daemon and Sockets",
+        "Device Driver",
+        "Introduction to System Programming",
+        "Kernel Compilation & Kernel Module",
+        "Make, Stdio, & I/O Buffering",
+        "Process & Memory",
+        "Shells",
+        "Signals",
+        "System Call & Stat System Call" .
+
+ns1:technopreneurship a ns1:course ;
+    rdfs:label "Technopreneurship" ;
+    ns1:also_known_as "technop" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSIE604290" ;
+    ns1:has_course_description "This course introduces and provides insight into entrepreneurship in the technology sector." ;
+    ns1:has_course_objective "Able to identify opportunities" ;
+    ns1:has_credits 3 ;
+    ns1:has_research_group ns1:center_for_cyber_security_and_cryptography,
+        ns1:computer_system_laboratory,
+        ns1:digital_library_and_distance_learning_laboratory,
+        ns1:information_retrieval_and_natural_language_processing,
+        ns1:intelligent_systems_and_robotics,
+        ns1:machine_learning_and_computer_vision,
+        ns1:reliable_software_engineering ;
+    ns1:has_topic_covered "Acquiring resources",
+        "Alliances and partnerships",
+        "Building a competitive advantage",
+        "Business model generation",
+        "Competitive strategy - industry analysis",
+        "Economic growth and technology entrepreneur",
+        "Entrepreneurial marketing",
+        "Innovation strategy",
+        "Introduction",
+        "Legal formation/intellectual property",
+        "Opportunity analysis project",
+        "Opportunity and the concept summary",
+        "Opportunity execution project",
+        "Presenting the plan",
+        "Start-up teams",
+        "The business plan",
+        "The financial plan",
+        "The individual entrepreneurial mind-set" .
+
+ns1:web_application_architecture a ns1:course ;
+    rdfs:label "Web Application Architecture" ;
+    ns1:also_known_as "AAW",
+        "Webapp Architectural",
+        "Webapp Architecture" ;
+    ns1:category ns1:study_program_elective_course ;
+    ns1:has_course_code "CSCE604271" ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:group_project,
+        ns1:lab_assignment ;
+    ns1:has_prerequisite_course ns1:computer_network,
+        ns1:platform_based_programming ;
+    ns1:has_research_group ns1:computer_system_laboratory,
+        ns1:reliable_software_engineering ;
+    ns1:has_topic_covered "Architectural Thinking",
+        "Asynchronous Communication",
+        "Event-Driven Architecture Style",
+        "Fundamental Patterns",
+        "Layered Architecture Style",
+        "Microservices Architecture",
+        "Modularity",
+        "Monolithic Versus Distributed Architectures",
+        "Orchestration-Driven Service-Oriented Architecture",
+        "Pipeline Architecture Style",
+        "Service Deployment & Monitoring",
+        "Service Orchestration & Choreography",
+        "Service Oriented Architecture",
+        "Service-Based Architecture Style",
+        "Web Service" .
+
+ns1:advanced_programming a ns1:course ;
+    rdfs:label "Advanced Programming" ;
+    ns1:also_known_as "Advanced Programming",
+        "adpro",
+        "projut" ;
+    ns1:category ns1:study_program_mandatory_course ;
+    ns1:has_course_code "CSCM602223" ;
+    ns1:has_credits 4 ;
+    ns1:has_evaluation_method ns1:lab_assignment,
+        ns1:presentation_or_demo_of_project_assignments ;
+    ns1:has_prerequisite_course ns1:platform_based_programming,
+        ns1:programming_basics_2 ;
+    ns1:has_topic_covered "Asynchronous Programming",
+        "Coding Standards",
+        "Concurrency",
+        "Continuous Integration & DevOps",
+        "Deployment & Monitoring",
+        "Design Patterns",
+        "High-Level Networking",
+        "Maintainability",
+        "OO Principles",
+        "Software Architectures",
+        "Test Driven Development & Refactoring" .
+
+ns1:capture_the_flag a ns1:evaluation ;
+    rdfs:label "Capture The Flag" .
+
+ns1:case_study a ns1:evaluation ;
+    rdfs:label "Case study" .
+
+ns1:ept_or_toefl_or_ielts_or_similar_exams a ns1:evaluation ;
+    rdfs:label "EPT/TOEFL/IELTS or similar exams" .
+
+ns1:group_discussiontask a ns1:evaluation ;
+    rdfs:label "Group DiscussionTask" .
+
+ns1:group_presentation a ns1:evaluation ;
+    rdfs:label "Group Presentation" .
+
+ns1:individual_review a ns1:evaluation ;
+    rdfs:label "Individual Review" .
+
+ns1:introduction_to_digital_systems a ns1:course ;
+    rdfs:label "Introduction to Digital Systems" ;
+    ns1:also_known_as "Introduction to Digital Systems",
+        "PSD" ;
+    ns1:category ns1:study_program_mandatory_course ;
+    ns1:has_course_code "CSCM601150" ;
+    ns1:has_course_description "This course provides a basic understanding and practical aspects of designing digital systems using high-level programming languages, such as VHDL." ;
+    ns1:has_course_objective "Able to design digital systems which are the basis of computer hardware" ;
+    ns1:has_credits 4 ;
+    ns1:has_evaluation_method ns1:test ;
+    ns1:has_topic_covered "ALU, Programmable ROM, PLA",
+        "Boolean Algebra: algebra manipulation, canonical form",
+        "Datapath(8) Computer Organization Overview",
+        "Digital logic gates, Gate implementation, IC",
+        "Flip-flop",
+        "Floating Point Numbers & Error detection mechanism",
+        "Karnaugh Map",
+        "Logic Circuits, n-bit Full Adder/Subtractor",
+        "Memory",
+        "Numbering Systems (Binary, Octal, Decimal, Hexadecimal) - Two’s complement & Arithmetic Operations",
+        "RAM, Stack & Queue",
+        "Registers",
+        "Selector, Decoder",
+        "Sequential logic analysis and synthesis",
+        "Shifter, Rotator, Arithmetic and Logic Extension",
+        "Simple Data paths: Accumulators & One’s Counter",
+        "State Table, State Diagram, Timing Diagram",
+        "Tabulation Method" .
+
+ns1:laboratory_assignment a ns1:evaluation ;
+    rdfs:label "Laboratory Assignment" .
+
+ns1:practicum a ns1:evaluation ;
+    rdfs:label "Practicum" .
+
+ns1:presentation_or_demo_of_project_assignments a ns1:evaluation ;
+    rdfs:label "Presentation or demo of project assignments" .
+
+ns1:programming_activities a ns1:evaluation ;
+    rdfs:label "Programming Activities" .
+
+ns1:programming_projects a ns1:evaluation ;
+    rdfs:label "Programming Projects" .
+
+ns1:programming_projects_and_demos a ns1:evaluation ;
+    rdfs:label "Programming projects and demos" .
+
+ns1:project_assignment a ns1:evaluation ;
+    rdfs:label "Project Assignment" .
+
+ns1:projects_and_presentations a ns1:evaluation ;
+    rdfs:label "Projects & Presentations" .
+
+ns1:calculus_1 a ns1:course ;
+    rdfs:label "Calculus 1" ;
+    ns1:also_known_as "Calculus 1" ;
+    ns1:category ns1:faculty_mandatory_course ;
+    ns1:has_course_code "CSGE601012" ;
+    ns1:has_course_description "This lecture discusses the basic concepts of calculus." ;
+    ns1:has_course_objective "CPL 6 Prodi I" ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:task,
+        ns1:test ;
+    ns1:has_topic_covered "Real numbers, complex number, inequalities and absolute values",
+        "derivative and its applications",
+        "exponential and logarithmic functions",
+        "limits and continuity of the functions of one variable",
+        "one variable functions, graphs, function and its operations",
+        "techniques of integrations",
+        "the applications of the definite integral",
+        "the notion of the integration",
+        "the techniques of integral calculations" .
+
+ns1:demo a ns1:evaluation ;
+    rdfs:label "Demo" .
+
+ns1:final_project a ns1:evaluation ;
+    rdfs:label "Final Project" .
+
+ns1:has_prerequisite rdfs:label "has prerequisite" .
+
+ns1:language_theory_and_automata a ns1:course ;
+    rdfs:label "Language Theory & Automata" ;
+    ns1:also_known_as "TBA" ;
+    ns1:category ns1:study_program_mandatory_course ;
+    ns1:has_course_code "CSCM602241" ;
+    ns1:has_course_description "This course discusses theoretical models of computational concepts and formal languages, including basic concepts of computational theory, abstract computing machines such as Turing machines, formal languages ​​such as context-free grammars, and limitations in computation." ;
+    ns1:has_course_objective "Able to describe basic concepts, principles, and theories regarding computing and its limitations." ;
+    ns1:has_credits 4 ;
+    ns1:has_evaluation_method ns1:test ;
+    ns1:has_prerequisite_course ns1:discrete_mathematics_1,
+        ns1:discrete_mathematics_2 ;
+    ns1:has_topic_covered "Chomsky hierarchy",
+        "Context-free grammars",
+        "Context-free languages CFL",
+        "Decision problems, (un) decidability",
+        "Deterministic Finite automata dan Nondeterministic finite automata",
+        "Equivalence between PDA and CFL",
+        "Introduction: mathematical foundations, basic terminology of languages, mathematical inductions, recursive definitions",
+        "Kleene's theorem given by the Myhill-Nerode theorem",
+        "Pumping lemma for regular languages",
+        "Push-down automata PDA",
+        "Recursive and recursively enumerable languages",
+        "Regular expressions",
+        "Regular languages",
+        "Turing machines and its variants" .
+
+ns1:report_document a ns1:evaluation ;
+    rdfs:label "Report Document" .
+
+ns1:research_methodology_and_scientific_writing a ns1:course ;
+    rdfs:label "Research Methodology and Scientific Writing" ;
+    ns1:also_known_as "MPPI" ;
+    ns1:category ns1:faculty_mandatory_course ;
+    ns1:has_course_code "CSGE603091" ;
+    ns1:has_course_objective "CPL 1",
+        "CPL 3 Prodi I" ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:group_project,
+        ns1:task ;
+    ns1:has_topic_covered "Class presentation",
+        "Course Overview",
+        "Data Collection, Data Analysis, and Data Presentation",
+        "Experimental Research in CS, IS, and IT",
+        "Introduction to research methodology and A Model of Scientific Inquiry",
+        "Problem identification & Hypothesis, Logical Thinking",
+        "Research Design",
+        "Review of Literature: compare, contrast, criticize, synthesize, and summarize papers",
+        "Scientific Writing: dissertation, thesis, papers, etc",
+        "Survey Research in IT",
+        "Writing Research Proposals & Reports" .
+
+ns1:calculus_2 a ns1:course ;
+    rdfs:label "Calculus 2" ;
+    ns1:also_known_as "Calculus 2" ;
+    ns1:category ns1:study_program_mandatory_course ;
+    ns1:has_course_code "CSCM601213" ;
+    ns1:has_course_objective "CPL 6 Prodi I" ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:task,
+        ns1:test ;
+    ns1:has_prerequisite_course ns1:calculus_1 ;
+    ns1:has_topic_covered "Further Applications of Integral",
+        "Further techniques of Integration",
+        "Improper integral",
+        "Indeterminate forms of limits",
+        "Infinite sequences and series",
+        "Multiple integral",
+        "Ordinary Differential Equations",
+        "Vector and Geometry Space" .
+
+ns1:digital_library_and_distance_learning_laboratory a ns1:research_lab ;
+    rdfs:label "Digital Library & Distance Learning Laboratory" ;
+    ns1:also_known_as "DL2" .
+
+ns1:operating_system a ns1:course ;
+    rdfs:label "Operating system" ;
+    ns1:also_known_as "OS",
+        "Operating System",
+        "SO" ;
+    ns1:category ns1:study_program_mandatory_course ;
+    ns1:has_course_code "CSCM602055" ;
+    ns1:has_course_description "This course will cover an overview of modern operating systems, including computer architecture, operating systems and the GNU/Linux CLI, scripting, an introduction to the C language, and related topics such as protection, security, memory management, processes, threads, and file systems." ;
+    ns1:has_course_objective "Able to describe the components of an operating system, design, modify, and implement operating system components." ;
+    ns1:has_credits 4 ;
+    ns1:has_evaluation_method ns1:task,
+        ns1:test ;
+    ns1:has_prerequisite_course ns1:introduction_to_computer_organization ;
+    ns1:has_topic_covered "Distributed Systems",
+        "File Management",
+        "Input/Output and Disk Management",
+        "Introduction & computer systems overview: processor, instruction execution, interrupts, memory hierarchy, cache memory and I/O communications",
+        "Memory: background, swapping, paging, segmentation",
+        "Operating System Overview: operating systems objective and functions, history, design, interface, system calls, virtual machines, generation and boot",
+        "Process: CPU scheduling",
+        "Process: concept and threads",
+        "Process: deadlocks",
+        "Process: process synchronization",
+        "Protection and Security",
+        "Virtual memory: allocation of frames, trashing, memory-mapped files and allocating kernel memory",
+        "Virtual memory: background, demand - paging, copy-on-write, page replacement" .
+
+ns1:presentation a ns1:evaluation ;
+    rdfs:label "Presentation" .
+
+ns1:software_engineering a ns1:course ;
+    rdfs:label "Software engineering" ;
+    ns1:also_known_as "RPL",
+        "SE",
+        "Software Engineering" ;
+    ns1:category ns1:study_program_mandatory_course ;
+    ns1:has_course_code "CSCM603125" ;
+    ns1:has_course_objective "Ability to identify and apply the appropriate methodology for software engineering" ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:group_project,
+        ns1:task ;
+    ns1:has_prerequisite_course ns1:programming_basics_2 ;
+    ns1:has_topic_covered "Agile Development",
+        "Introduction to Software Engineering: Software category, Software evolution",
+        "Modeling Analysis & Design: Requirement Analysis, Use Case Diagrams, Class Diagrams, Interaction Diagrams, Architecture Design, Class & Method Design, Design Pattern",
+        "Quality Management: Software Testing Strategies, Testing Conventional Application",
+        "Software Management" .
+
+ns1:supervisor_evaluation a ns1:evaluation ;
+    rdfs:label "Supervisor Evaluation" .
+
+ns1:university_mandatory_course a ns1:has_course_category ;
+    rdfs:label "University Mandatory Course" .
+
+ns1:database a ns1:course ;
+    rdfs:label "Database" ;
+    ns1:also_known_as "BD",
+        "DB",
+        "Database",
+        "basdat" ;
+    ns1:category ns1:faculty_mandatory_course ;
+    ns1:has_course_code "CSGE602070" ;
+    ns1:has_course_description "This lecture discusses the basic concepts of database management, including aspects of modeling and design, languages, facilities, implementation, and applications of databases." ;
+    ns1:has_course_objective "Able to design, implement, and manage databases according to needs" ;
+    ns1:has_credits 4 ;
+    ns1:has_evaluation_method ns1:group_project,
+        ns1:test ;
+    ns1:has_prerequisite_course ns1:programming_basics_2 ;
+    ns1:has_topic_covered "Concept and Architecture of Database System",
+        "Functional Dep. and Normalization",
+        "Modelling using Entity Relationship",
+        "Relational DB design; ER/EER to relational mapping",
+        "Relational data model & relational DB constraint",
+        "SQL - Indexing, Trigger and Stored Procedure",
+        "SQL Basic & Advanced Query",
+        "SQL-DDL Insert/Update/Delete" .
+
+ns1:discrete_mathematics_2 a ns1:course ;
+    rdfs:label "Discrete Mathematics 2" ;
+    ns1:also_known_as "DM 2",
+        "Discrete Mathematics 2",
+        "MD 2",
+        "matdis 2" ;
+    ns1:category ns1:faculty_mandatory_course ;
+    ns1:has_course_code "CSGE601011" ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:test ;
+    ns1:has_topic_covered "Graphs",
+        "Recurrence Relations",
+        "Relations",
+        "Theory of Integers",
+        "Trees",
+        "recurrence relation" .
+
+ns1:group_task a ns1:evaluation ;
+    rdfs:label "Group task" .
+
+ns1:introduction_to_computer_organization a ns1:course ;
+    rdfs:label "Introduction to Computer Organization" ;
+    ns1:also_known_as "Introduction to Computer Organization",
+        "POK" ;
+    ns1:category ns1:study_program_mandatory_course ;
+    ns1:has_course_code "CSCM601252" ;
+    ns1:has_course_description "This course provides a foundation for sequential computer organization consisting of input, output, memory, and processor (control and data paths)." ;
+    ns1:has_course_objective "Able to design digital systems which are the basis of computer hardware" ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:task,
+        ns1:test ;
+    ns1:has_prerequisite_course ns1:introduction_to_digital_systems ;
+    ns1:has_topic_covered "Arithmetic Unit",
+        "Assembly Language Based on AVR",
+        "Input /Output Organization",
+        "Introduction to AVR",
+        "MIPS Assembly Language",
+        "Memory System: RAM, ROM, Cache Memory",
+        "Performance",
+        "Processor: Datapath and Control",
+        "Processor: Pipeline",
+        "RISK vs CISC" .
+
+ns1:linear_algebra a ns1:course ;
+    rdfs:label "Linear Algebra" ;
+    ns1:also_known_as "Linear Algebra",
+        "alin",
+        "linalg" ;
+    ns1:category ns1:faculty_mandatory_course ;
+    ns1:has_course_code "CSGE602012" ;
+    ns1:has_course_description "Linear Algebra" ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:test ;
+    ns1:has_topic_covered "Determinant",
+        "Eigen value and Eigen vector",
+        "Inner product spaces",
+        "Linear equation systems",
+        "Linear transformation",
+        "Matrices",
+        "Vector spaces" .
+
+ns1:platform_based_programming a ns1:course ;
+    rdfs:label "Platform Based Programming" ;
+    ns1:also_known_as "PBP",
+        "Platform-based Programming" ;
+    ns1:category ns1:faculty_mandatory_course ;
+    ns1:has_course_code "CSGE602022" ;
+    ns1:has_course_objective "Able to implement computer-based systems on two different platforms: Web & Mobile",
+        "CPL 5 Prodi I" ;
+    ns1:has_credits 4 ;
+    ns1:has_evaluation_method ns1:group_project,
+        ns1:test ;
+    ns1:has_prerequisite_course ns1:programming_basics_1 ;
+    ns1:has_topic_covered "Client side programming with JQuery",
+        "Data delivery HTML, XML, dan JSON",
+        "Form, POST & GET, session, cookie, authentication, authorization",
+        "Introduction to Platform-Based Programming",
+        "Mobile application delivery",
+        "Mobile platform development framework using Flutter",
+        "Navigation, layouting, HTML template, CSS, assets",
+        "Security Aspects on Web Development: Cross Site Request Forgery, Cross Site Scripting",
+        "Test, Models, Views Templates & assets",
+        "User Interfaces",
+        "Web Platform Development Framework" .
+
+ns1:statistics_and_probability a ns1:course ;
+    rdfs:label "Statistics and Probability" ;
+    ns1:also_known_as "Statistics and Probability",
+        "statprob" ;
+    ns1:category ns1:study_program_mandatory_course ;
+    ns1:has_course_code "CSCM602013" ;
+    ns1:has_course_description "This course is application-oriented, focusing on how to use the concepts of probability and statistics to solve real-world problems in computer science." ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:programming_assignment,
+        ns1:test ;
+    ns1:has_prerequisite_course ns1:calculus_1,
+        ns1:discrete_mathematics_1 ;
+    ns1:has_topic_covered "Applications to Computing",
+        "Bayes’ rule",
+        "Central Limit Theorem",
+        "Continuous distribution and probability densities: Uniform, Exponential, Normal",
+        "Descriptive Statistics",
+        "Discrete random variables and Special Discrete distributions: Bernoulli, Binomial, Geometric, Negative Binomial, Poisson",
+        "Distribution of Sampling Statistics",
+        "Elements of Probability: Events and outcomes, Probability rules, Conditional probability, Independence",
+        "Expectation",
+        "Introduction",
+        "Maximum A Posterior",
+        "Maximum Likelihood Estimation",
+        "Parameter estimation and hypothesis testing",
+        "Random variables and their distribution",
+        "Sampling Techniques",
+        "Statistical inference: Parameter and statistics" .
+
+ns1:center_for_cyber_security_and_cryptography a ns1:research_lab ;
+    rdfs:label "Center for Cyber Security and Cryptography" ;
+    ns1:also_known_as "CCSC" .
+
+ns1:discrete_mathematics_1 a ns1:course ;
+    rdfs:label "Discrete Mathematics 1" ;
+    ns1:also_known_as "DM 1",
+        "Discrete Mathematics 1",
+        "MD 1",
+        "matdis 1" ;
+    ns1:category ns1:faculty_mandatory_course ;
+    ns1:has_course_code "CSGE601010" ;
+    ns1:has_credits 3 ;
+    ns1:has_topic_covered "Combinations",
+        "First-order predicate logic",
+        "Mathematical induction",
+        "Permutations",
+        "Pigeonhole principle",
+        "Progressions",
+        "Proofs",
+        "Propositional logic",
+        "Sequences",
+        "Sets and Functions" .
+
+ns1:has_course_category rdfs:label "has course category" .
+
+ns1:programming_basics_2 a ns1:course ;
+    rdfs:label "Programming Basics 2" ;
+    ns1:also_known_as "DDP 2",
+        "Introduction to Programming 2" ;
+    ns1:category ns1:faculty_mandatory_course ;
+    ns1:has_course_code "CSGE601021" ;
+    ns1:has_course_objective "Able to apply programming foundation concepts to abstract and solve simple computational problems." ;
+    ns1:has_credits 4 ;
+    ns1:has_evaluation_method ns1:demo,
+        ns1:programming_assignment,
+        ns1:test ;
+    ns1:has_prerequisite_course ns1:programming_basics_1 ;
+    ns1:has_topic_covered "Advanced Recursion",
+        "Array Lists",
+        "Arrays, Arrays of Objects",
+        "Classes & Objects",
+        "Control Flow (Decision and Loop)",
+        "Fundamental Data Types: Primitive & Object Types",
+        "Generic Collections: List, Map, Set, Stack, Queue",
+        "Generic Programming: Generic Classes & Methods",
+        "Graphical User Interfaces",
+        "Inheritance",
+        "Input/Output and Exception Handling",
+        "Introduction to Objects and Classes",
+        "Methods & Access Specifier",
+        "Polymorphism: Abstract Class, Interfaces, etc",
+        "Sorting and Searching",
+        "Unit Testing" .
+
+ns1:project a ns1:evaluation ;
+    rdfs:label "Project" .
+
+ns1:programming_basics_1 a ns1:course ;
+    rdfs:label "Programming Basics 1" ;
+    ns1:also_known_as "DDP 1",
+        "Introduction to Programming 1" ;
+    ns1:category ns1:faculty_mandatory_course ;
+    ns1:has_course_code "CSGE601020" ;
+    ns1:has_credits 4 ;
+    ns1:has_evaluation_method ns1:demo,
+        ns1:test ;
+    ns1:has_topic_covered "Control",
+        "Data Structures and Functions",
+        "Data Types",
+        "Exceptions",
+        "Files",
+        "Graphical User Interface (GUI)",
+        "Introduction to computers and programming",
+        "Introduction to object-oriented programming",
+        "Recursion" .
+
+ns1:computer_network a ns1:course ;
+    rdfs:label "Computer network" ;
+    ns1:also_known_as "Computer Network",
+        "compnet",
+        "jarkom" ;
+    ns1:category ns1:study_program_mandatory_course ;
+    ns1:has_course_code "CSCM603154" ;
+    ns1:has_course_description "This lecture discusses the principles of computer networks, the internet, and security." ;
+    ns1:has_course_objective "Able to analyze system and computing problems involving computer networks." ;
+    ns1:has_credits 3 ;
+    ns1:has_evaluation_method ns1:group_project,
+        ns1:task,
+        ns1:test ;
+    ns1:has_prerequisite_course ns1:operating_system,
+        ns1:programming_basics_1 ;
+    ns1:has_topic_covered "Application layer",
+        "Computer Networks and the Internet",
+        "Link layer and LAN",
+        "Network layer: data and control plane",
+        "Network layer: data plane",
+        "Security in computer networks: Authentication",
+        "Security in computer networks: Message integrity and digital signature",
+        "Security in computer networks: Operational security: firewall",
+        "Security in computer networks: Principles of cryptography",
+        "Security in computer networks: Securing TCP connection: TLS",
+        "Security in computer networks: Securing email",
+        "Transport layer",
+        "security" .
+
+ns1:intelligent_systems_and_robotics a ns1:research_lab ;
+    rdfs:label "Intelligent Systems & Robotics" ;
+    ns1:also_known_as "IROS" .
+
+ns1:introduction_to_artificial_intelligence_and_data_science a ns1:course ;
+    rdfs:label "Introduction to Artificial Intelligence and Data Science" ;
+    ns1:also_known_as "DS",
+        "Data Science",
+        "kasdad" ;
+    ns1:category ns1:faculty_mandatory_course ;
+    ns1:has_course_code "CSGE603130" ;
+    ns1:has_course_objective "CPL 6 Prodi I" ;
+    ns1:has_credits 4 ;
+    ns1:has_evaluation_method ns1:group_project,
+        ns1:test ;
+    ns1:has_prerequisite_course ns1:data_structures_and_algorithms,
+        ns1:linear_algebra,
+        ns1:statistics_and_probability ;
+    ns1:has_topic_covered "Artificial Intelligence, Data Science, and Machine Learning: Introduction and Terminology",
+        "Classification and Regression Trees, and Random Forest",
+        "Clustering (K-means, hierarchical)",
+        "Data Preparation and Dimensionality Reduction",
+        "Exploratory Data Analysis (EDA)",
+        "Imbalanced Classification",
+        "K-Nearest Neighbor Classification and Regression",
+        "Knowledge, Reasoning, and Planning",
+        "Lasso Regression",
+        "Linear Regression",
+        "Logistic Regression",
+        "Model Evaluation, Performance Metric, Bias-Variance Tradeoff",
+        "Naïve Bayes Classifier",
+        "Neural Networks",
+        "Problem Solving: Search & CSP",
+        "Ridge Regression",
+        "Softmax Regression",
+        "Support Vector Machines" .
+
+ns1:lab_assignment a ns1:evaluation ;
+    rdfs:label "Lab Assignment",
+        "Lab assignment" .
+
+ns1:machine_learning_and_computer_vision a ns1:research_lab ;
+    rdfs:label "Machine Learning and Computer Vision" ;
+    ns1:also_known_as "MLCV" .
+
+ns1:research_lab rdfs:label "research lab" .
+
+ns1:computer_system_laboratory a ns1:research_lab ;
+    rdfs:label "Computer System Laboratory" ;
+    ns1:also_known_as "CSL" .
+
+ns1:data_structures_and_algorithms a ns1:course ;
+    rdfs:label "Data Structures and Algorithms" ;
+    ns1:also_known_as "DSA",
+        "Data Structure and Algorithm",
+        "SDA" ;
+    ns1:category ns1:faculty_mandatory_course ;
+    ns1:has_course_code "CSGE602040" ;
+    ns1:has_course_description "This lecture also discusses the analysis of the complexity of space and time allocation in algorithm implementation.",
+        "This lecture discusses the basic techniques for data abstraction and manipulation of these abstract structures through appropriate algorithms." ;
+    ns1:has_credits 4 ;
+    ns1:has_evaluation_method ns1:programming_projects,
+        ns1:test ;
+    ns1:has_prerequisite_course ns1:programming_basics_1 ;
+    ns1:has_topic_covered "AVL Tree",
+        "Abstract Data Types",
+        "B-Tree",
+        "Binary Heap",
+        "Binary Search Trees",
+        "Graph representation and algorithms",
+        "Hash table",
+        "Hierarchical data model: Tree",
+        "Huffman Coding",
+        "Linear data model: lists, stacks, queues, sets",
+        "Searching",
+        "Sorting" .
+
+ns1:information_retrieval_and_natural_language_processing a ns1:research_lab ;
+    rdfs:label "Information Retrieval and Natural Language Processing" ;
+    ns1:also_known_as "IRNLP" .
+
+ns1:programming_assignment a ns1:evaluation ;
+    rdfs:label "Programming Assignment" .
+
+ns1:study_program_mandatory_course a ns1:has_course_category ;
+    rdfs:label "Study Program Mandatory Course" .
+
+ns1:group_project a ns1:evaluation ;
+    rdfs:label "Group Project" .
+
+ns1:reliable_software_engineering a ns1:research_lab ;
+    rdfs:label "Reliable Software Engineering" ;
+    ns1:also_known_as "RSE" .
+
+ns1:faculty_mandatory_course a ns1:has_course_category ;
+    rdfs:label "Faculty Mandatory Course" .
+
+ns1:task a ns1:evaluation ;
+    rdfs:label "Task" .
+
+ns1:evaluation rdfs:label "evaluation" .
+
+ns1:study_program_elective_course a ns1:has_course_category ;
+    rdfs:label "Study Program Elective Course" .
+
+ns1:test a ns1:evaluation ;
+    rdfs:label "Test" .
+
+ns1:course rdfs:label "course" .
+

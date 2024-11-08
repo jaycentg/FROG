@@ -1,0 +1,42 @@
+[
+    {
+        "question":"Please help me with the SPARQL query to a natural language",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_credits> '3'^^xsd:integer . }"
+    },
+    {
+        "question":"What courses have the objective \"CPL 6 Prodi I\"?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_course_objective> 'CPL 6 Prodi I' . }"
+    },
+    {
+        "question":"I'll be happy to help you with that.",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_topic_covered> 'Next Actions: Selling Ideas & Pitch \/ Self-Evaluation & Research in Game Development' . }"
+    },
+    {
+        "question":"I want to know the main topic covered\nassistant",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_topic_covered> 'Design Patterns' . }"
+    },
+    {
+        "question":"What topics has Modularity covered?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_topic_covered> 'Modularity' . }"
+    },
+    {
+        "question":"What topics are covered by the concept of \"Message Authentication Codes\"?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_topic_covered> 'Message Authentication Codes' . }"
+    },
+    {
+        "question":"Please help me with the SPARQL query to a natural language",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_credits> '4'^^xsd:integer . }"
+    },
+    {
+        "question":"What topics are covered by the concept \"Recurrence relation: master method, method of substitution, recursion tree\"?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_topic_covered> 'Recurrence relation: master method, method of substitution, recursion tree' . }"
+    },
+    {
+        "question":"Please help me with the main topic covered",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_topic_covered> 'Signals' . }"
+    },
+    {
+        "question":"What topics are covered by Machine Translation?",
+        "query":"select ?x { ?x <http:\/\/example.org\/has_topic_covered> 'Machine Translation' . }"
+    }
+]

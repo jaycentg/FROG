@@ -1,3 +1,8 @@
+# ACKNOWLEDGEMENTS
+# This KG is originally made by Daniel C. M. (https://github.com/danielcm585) in the form of triples
+# Converted into RDF by Jaycent G. O. (https://github.com/jaycentg)
+# Ontology defined by Jaycent G. O. (https://github.com/jaycentg)
+
 @prefix ns1: <http://example.org/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .

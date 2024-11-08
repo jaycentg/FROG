@@ -2,7 +2,7 @@
 ![frog-logo](https://github.com/user-attachments/assets/0119354b-7fe4-4232-9f26-8ff1122b4edd)
 
 ## Environment Setup
-**Run all these command below in the terminal.**<br>
+**Run all these commands below in the terminal.**<br>
 Setup a new virtual environment.
 ```
 python -m venv env
